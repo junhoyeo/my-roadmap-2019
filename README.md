@@ -2,26 +2,65 @@
 
 A curated list of awesome **Backend** frameworks and resources
 
-All kinds of contributions is welcomed! Just send a [new **pull request**](https://github.com/junhoyeo/awesome-backend/pull/new/master).
+All kinds of contributions(from single typos to large improvements) is welcomed! Just send a [new **pull request**](https://github.com/junhoyeo/awesome-backend/pull/new/master).
 
-## Frameworks
+# Backend?
+Backend means the data access layer of a application. 
 
-### Python
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+Most of the core operating logic and data handling happens here; Such as managing authentication, interacting with the database or other services, and providing API to communicate with the client(which can be the frontend app).
 
-#### [Flask](https://github.com/pallets/flask)
+# Contents
+- [Frameworks](#frameworks)
+  - [Python](#python): Awesome Backend frameworks in Python
+  - [JavaScript](#javascript): Awesome Backend frameworks in JavaScript
+- [API documentation](#api-documentation)
+- [Resources](#resources)
 
-#### [Sanic](https://github.com/huge-success/sanic)
+# Frameworks
 
-### JavaScript
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+## Python
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/vinta/awesome-python)
 
-#### [Express](https://github.com/expressjs/express)
+### [Flask](https://github.com/pallets/flask)
+<img src="./logos/flask.png" width="30%">
 
-## API Documentation Tools
+> The Python micro framework for building web applications.
 
-### [OpenAPI](https://github.com/OAI/OpenAPI-Specification)
+#### Extensions
+- flask-common
+- flask-cors
+- flask-jwt-extended
+- flask-pymongo
+- flask-restplus
 
-### [Swagger](https://swagger.io/)
+### [Sanic](https://github.com/huge-success/sanic)
+<img src="./logos/sanic.png" width="30%">
 
-### [GitBook](https://legacy.gitbook.com/)
+> Build fast. Run fast.
+
+### [Django](https://github.com/django/django)
+> The Web framework for perfectionists with deadlines.
+
+## JavaScript
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://github.com/sorrycc/awesome-javascript)
+
+### [Express](https://github.com/expressjs/express)
+> Fast, unopinionated, minimalist web framework for Node.js
+
+### [NestJS](https://github.com/nestjs/nest)
+<img src="./logos/nestjs.svg" width="30%">
+
+> A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
+
+# API Documentation
+Specification and tools, services to provide better API documentation.
+
+## [OpenAPI](https://github.com/OAI/OpenAPI-Specification)
+
+## [Swagger](https://swagger.io/)
+<img src="./logos/swagger.svg" width="30%">
+
+## [GitBook](https://legacy.gitbook.com/)
+<img src="./logos/gitbook.png" width="30%">
+
+# Resources
