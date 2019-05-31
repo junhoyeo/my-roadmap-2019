@@ -5,7 +5,7 @@ A curated list of awesome **Backend** frameworks and resources
 All kinds of contributions(from single typos to large improvements) is welcomed! Just send a [new **pull request**](https://github.com/junhoyeo/awesome-backend/pull/new/master).
 
 # Backend?
-Backend means the data access layer of a application. 
+Backend means the data access layer of an application. 
 
 Most of the core operating logic and data handling happens here; Such as managing authentication, interacting with the database or other services, and providing API to communicate with the client(which can be the frontend app).
 
