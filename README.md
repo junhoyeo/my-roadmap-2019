@@ -14,6 +14,7 @@ Most of the core operating logic and data handling happens here; Such as managin
   - [Python](#python): Awesome Backend frameworks in Python
   - [JavaScript](#javascript): Awesome Backend frameworks in JavaScript
 - [API documentation](#api-documentation)
+- [DevOps](#devops)
 - [Resources](#resources)
 
 # Frameworks
@@ -22,7 +23,7 @@ Most of the core operating logic and data handling happens here; Such as managin
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/vinta/awesome-python)
 
 ### [Flask](https://github.com/pallets/flask)
-<img src="./logos/flask.png" width="30%">
+<img alt="flask logo" src="./logos/flask.png" width="30%">
 
 > The Python micro framework for building web applications.
 
@@ -34,7 +35,7 @@ Most of the core operating logic and data handling happens here; Such as managin
 - flask-restplus
 
 ### [Sanic](https://github.com/huge-success/sanic)
-<img src="./logos/sanic.png" width="30%">
+<img alt="sanic logo" src="./logos/sanic.png" width="30%">
 
 > Build fast. Run fast.
 
@@ -48,7 +49,7 @@ Most of the core operating logic and data handling happens here; Such as managin
 > Fast, unopinionated, minimalist web framework for Node.js
 
 ### [NestJS](https://github.com/nestjs/nest)
-<img src="./logos/nestjs.svg" width="30%">
+<img alt="nestjs logo" src="./logos/nestjs.svg" width="30%">
 
 > A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
 
@@ -58,9 +59,22 @@ Specification and tools, services to provide better API documentation.
 ## [OpenAPI](https://github.com/OAI/OpenAPI-Specification)
 
 ## [Swagger](https://swagger.io/)
-<img src="./logos/swagger.svg" width="30%">
+<img alt="swagger logo" src="./logos/swagger.svg" width="30%">
 
 ## [GitBook](https://legacy.gitbook.com/)
-<img src="./logos/gitbook.png" width="30%">
+<img alt="gitbook logo" src="./logos/gitbook.png" width="30%">
+
+# DevOps
+
+## Docker
+<img alt="docker logo" src="./logos/docker.png" width="30%">
+
+> Build, Share, and Run Any App, Anywhere. 
+
+## Continuous Integration
+
+### TravisCI
+
+### CircleCI
 
 # Resources
