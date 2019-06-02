@@ -4,18 +4,65 @@ A curated list of awesome **Backend** frameworks and resources
 
 All kinds of contributions(from single typos to large improvements) is welcomed! Just send a [new **pull request**](https://github.com/junhoyeo/awesome-backend/pull/new/master).
 
-# Backend?
+Most of the contents of this repo will prefer to be written in English because I want to see this repo famous for overseas someday! 👍👍👍
+~~But since I can't speak English that much, I guess I'll use Korean for some sections.~~
+
+# 🔙 Backend?
 Backend means the data access layer of an application. 
 
 Most of the core operating logic and data handling happens here; Such as managing authentication, interacting with the database or other services, and providing API to communicate with the client(which can be the frontend app).
 
-# Contents
+# 📌 My goal & Roadmap
+I made this repository to self-study more about backend development and to gain insight into trendy new frameworks and technologies. Also, I hope someone will see this useful when he/she begin to study backend too.
+
+The overall goal of my life is contributing to the world in any kind; That's why I'm using GitHub - My projects are not that great, but I saw that some people can still find them helpful in any way. Idea, joy or my code or something.
+
+<img alt="woowa-brothers" src="./logos/woowa-brothers.png" width="60%">
+
+> One of my dreams is to work in Woowa Brothers as a server/backend developer ~~or serve as an alternative for Korean military services~~. 
+
+By the way, `Woowa` means `elegant` or `delicate`.
+
+## 🌱 What kind of developer should I be?
+현재 [우아한형제들의 개발직군 채용공고](https://www.woowahan.com/#/recruit/tech)를 보면, 우아한형제들이 원하는 개발자의 모습에 대해 알 수 있습니다.
+
+### 우아하기 위해 노력하는 개발자
+> 끊임 없이 노력하는 사람
+
+저는 **트렌디한 개발자**가 되고 싶습니다. 트렌디한 개발자는 계속 쏟아져 나오는 기술들을 보다 빠르게 습득하고 활용할 수 있는 능력을 가진 개발자입니다. 물론 기초 없이 얉은 지식만으로 유행만을 쫓는 사람이 되고 싶지는 않습니다. 깊고 넓게, 유연하게 배우고 싶습니다. ~~그게 쉽냐~~
+
+최근에 저는 교내 인트라넷 서비스 [디미고인](https://github.com/dimigoin/dimigoin-front)에서 프론트엔드 개발자로 일하게(?) 되었습니다.
+디미고인은 이슈 중심으로 프로젝트가 관리되고 있습니다. 새로운 기능이나 버그 패치가 필요해질 때 이슈를 만들고 개인별로 할당한 뒤 PR을 올리는 방식입니다.
+PR이 Merge되려면 1명 이상의 다른 개발자에게 Approve를 받아야 합니다. 다른 사람에게 코드를 리뷰 받고, 타인의 코드를 리뷰하는 과정에서 새로운 문법이나 설계에 대해서도 배우게 되고 네이밍부터 커밋 메세지까지 여러 가지 고민을 하게 됩니다.
+
+사실 초반에는 `와, 고작 이 정도 바꾸는데 리뷰까지 받아야 해?`라는 생각이 들었지만, 이런 개발 프로세스가 양질의 코드를 양산하고 이슈 관리를 체계적으로 할 수 있게 해줌으로서 결국은 막 받는 것보다(?) 더 효율적으로 프로젝트를 관리할 수 있게 해준다는 것을 알게 되었습니다(생각보다 유연한 부분도 많이 있었고요).
+
+이렇게 코드 품질을 중요하게 여기면서도 최신 트렌드를 반영하려는 노력을 하는 디미고인의 선배님들이야말로 진짜 트렌디한 개발자라고 할 수 있을 것 같습니다. 저도 이처럼 현재 상황에 만족하고 안도하지 않고 끊임없이 고민하며 코드를 더 발전시켜 나가는 마음을 가져야겠습니다.
+
+### 코드가 아닌 가치를 만드는 개발자
+> 기술보다, 그 가치를 생각하고 구현하기 위해 노력하는 사람
+
+### 우아한 형제/자매들
+> 협력을 통해서 더한 가치를 만들 수 있는 사람
+
+## 📖 What should I study more?
+서버 개발자의 지원자격은 아래와 같습니다.
+
+- [x] Git 사용 경험
+- [x] 기본적인 Linux/Unix 사용 가능자 
+- [ ] Java에 익숙하고 기타 언어 하나 이상을 습득한 사람
+- [ ] Spring Boot를 이용한 웹 애플리케이션 개발 경험
+- [ ] MVC framework 기반의 웹 서비스나 API 개발 경험
+- [ ] RDBMS 경험
+- [ ] CI/CD 자동화 경험
+- [ ] 객체지향 개발 및 테스트 코드 작성 숙달자
+
+# 📚 Contents
 - [Frameworks](#frameworks)
   - [Python](#python): Awesome Backend frameworks in Python
-  - [JavaScript](#javascript): Awesome Backend frameworks in JavaScript
+  - [JavaScript](#Javascript): Awesome Backend frameworks in JavaScript
 - [API documentation](#api-documentation)
 - [DevOps](#devops)
-- [Resources](#resources)
 
 # Frameworks
 
@@ -34,13 +81,24 @@ Most of the core operating logic and data handling happens here; Such as managin
 - flask-pymongo
 - flask-restplus
 
+#### PyTest
+
 ### [Sanic](https://github.com/huge-success/sanic)
 <img alt="sanic logo" src="./logos/sanic.png" width="30%">
 
 > Build fast. Run fast.
 
+#### PyTest
+
 ### [Django](https://github.com/django/django)
 > The Web framework for perfectionists with deadlines.
+
+### Books
+- [**파이썬 핵심 개발자들과의 인터뷰** - 마이크 드리스콜](http://www.yes24.com/Product/goods/67340568) (Python Interviews: Discussions with Python Experts by Michael Driscoll), 2019
+- [**플라스크 웹 개발** - 미구엘 그린버그](http://www.yes24.com/Product/Goods/30669136) (Flask Web Development by Miguel Grinberg), ~~2014~~ 2018
+
+### Resources
+- [**백엔드가 이정도는 해줘야 함**(조민규)](https://velog.io/@city7310/series/백엔드가-이정도는-해줘야-함)
 
 ## JavaScript
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://github.com/sorrycc/awesome-javascript)
@@ -52,6 +110,17 @@ Most of the core operating logic and data handling happens here; Such as managin
 <img alt="nestjs logo" src="./logos/nestjs.svg" width="30%">
 
 > A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
+
+## Java
+[![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://github.com/akullpp/awesome-java)
+
+### Spring Boot
+<img alt="spring-boot logo" src="./logos/spring-boot.png" width="30%">
+
+> Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
+
+### Books
+- [**처음 배우는 스프링 부트 2**(김영재)](http://www.yes24.com/Product/goods/64584833), 2018
 
 # API Documentation
 Specification and tools, services to provide better API documentation.
@@ -76,5 +145,3 @@ Specification and tools, services to provide better API documentation.
 ### TravisCI
 
 ### CircleCI
-
-# Resources
