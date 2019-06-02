@@ -17,9 +17,9 @@ I made this repository to self-study more about backend development and to gain 
 
 The overall goal of my life is contributing to the world in any kind; That's why I'm using GitHub - My projects are not that great, but I saw that some people can still find them helpful in any way. Idea, joy or my code or something.
 
-<img alt="woowa-brothers" src="./logos/woowa-brothers.png" width="60%">
+<img alt="woowabros" src="./logos/woowabros.png" width="60%">
 
-> One of my dreams is to work in Woowa Brothers as a server/backend developer ~~or serve as an alternative for Korean military services~~. 
+> One of my dreams is to work in Woowabros as a server/backend developer ~~or serve as an alternative for Korean military services~~. 
 
 By the way, `Woowa` means `elegant` or `delicate`.
 
