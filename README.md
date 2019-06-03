@@ -78,6 +78,12 @@ PR이 Merge되려면 1명 이상의 다른 개발자에게 Approve를 받아야 
 
 > The Python micro framework for building web applications.
 
+**Flask**는 Python으로 작성된 **WSGI 웹 마이크로프레임워크**입니다.
+
+먼저 **WSGI**는 `Web Server Gateway Interface`의 약자로, 웹 서버와 웹 애플리케이션의 인터페이스에 대한 규칙을 말합니다. 요청이 웹서버로 들어오면 WSGI를 지원하는 미들웨어를 경유해 WSGI를 지원하는 웹 애플리케이션에게 전달, 실행된 뒤 전달받은 콜백 함수를 통해서 응답을 보내는 방식으로 통신이 이루어집니다.
+
+**마이크로프레임워크**가 대체 무슨 뜻일까요? [공식 문서](http://flask.pocoo.org/docs/0.12/foreword/)에서는 `The “micro” in microframework means Flask aims to keep the core simple but extensible`이라고 합니다. 프레임워크 자체는 핵심 기능만 있어 가벼우면서도 다른 모듈을 통해 끝없이 확장할 수 있다는 뜻이죠. 때문에 개발 속도를 높이면서도 기능에 집중해 편하게 개발할 수 있습니다.
+
 #### Extensions
 - flask-common
 - flask-cors
