@@ -91,6 +91,30 @@ PR이 Merge되려면 1명 이상의 다른 개발자에게 Approve를 받아야 
 - flask-pymongo
 - flask-restplus
 
+#### gevent
+```diff
++ from gevent import monkey
++ from gevent.pywsgi import WSGIServer
++ monkey.patch_all()
+
+from flask import Flask
+app = Flask(__name__)
+
+... 
+
+if __name__ == '__main__':
+- app.run('0.0.0.0', 5000)
++  server = WSGIServer(
++    ('0.0.0.0', 5000),
++    app.wsgi_app
++  )
++  server.serve_forever()
+```
+
+[gevent](https://github.com/gevent/gevent) 모듈은 몽키 패칭(Monkey patching) 유틸리티를 제공합니다. 몽키 패치는 런타임 상에서 함수나 메소드를 변경하거나 확장하기 위해 오버라이딩하는 것을 말합니다. 
+
+이를 이용해서 위처럼 Flask 앱이 요청을 비동기적으로(여러 요청을 동시에) 처리할 수 있도록 패치할 수 있습니다.
+
 #### PyTest
 
 ### [Sanic](https://github.com/huge-success/sanic)
