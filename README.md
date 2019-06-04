@@ -85,11 +85,21 @@ PR이 Merge되려면 1명 이상의 다른 개발자에게 Approve를 받아야 
 **마이크로프레임워크**가 대체 무슨 뜻일까요? [공식 문서](http://flask.pocoo.org/docs/0.12/foreword/)에서는 `The “micro” in microframework means Flask aims to keep the core simple but extensible`이라고 합니다. 프레임워크 자체는 핵심 기능만 있어 가벼우면서도 다른 모듈을 통해 끝없이 확장할 수 있다는 뜻이죠. 때문에 개발 속도를 높이면서도 기능에 집중해 편하게 개발할 수 있습니다.
 
 #### Extensions
-- flask-common
-- flask-cors
-- flask-jwt-extended
-- flask-pymongo
-- flask-restplus
+- [flask-common](https://github.com/kennethreitz/flask-common)
+- [flask-cors](https://github.com/corydolphin/flask-cors)
+
+- Authentication
+  - [flask-login](https://github.com/maxcountryman/flask-login)
+  - [flask-session](https://github.com/fengsp/flask-session)
+  - [flask-jwt-extended](https://github.com/vimalloc/flask-jwt-extended)
+
+- Database Integration
+  - [flask-sqlalchemy](https://github.com/pallets/flask-sqlalchemy)
+  - [flask-pymongo](https://github.com/dcrosta/flask-pymongo)
+
+- REST APIs
+  - [flask-restful](https://github.com/flask-restful/flask-restful)
+  - [flask-restplus](https://github.com/noirbizarre/flask-restplus)
 
 #### gevent
 ```diff
