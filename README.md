@@ -73,6 +73,8 @@ PR이 Merge되려면 1명 이상의 다른 개발자에게 Approve를 받아야 
 ## Python
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/vinta/awesome-python)
 
+----------------------------------------
+
 ### [Flask](https://github.com/pallets/flask)
 <img alt="flask logo" src="./logos/flask.png" width="30%">
 
@@ -127,12 +129,16 @@ if __name__ == '__main__':
 
 #### PyTest
 
+----------------------------------------
+
 ### [Sanic](https://github.com/huge-success/sanic)
 <img alt="sanic logo" src="./logos/sanic.png" width="30%">
 
 > Build fast. Run fast.
 
 #### PyTest
+
+----------------------------------------
 
 ### [Django](https://github.com/django/django)
 > The Web framework for perfectionists with deadlines.
@@ -147,8 +153,12 @@ if __name__ == '__main__':
 ## JavaScript
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://github.com/sorrycc/awesome-javascript)
 
+----------------------------------------
+
 ### [Express](https://github.com/expressjs/express)
 > Fast, unopinionated, minimalist web framework for Node.js
+
+----------------------------------------
 
 ### [NestJS](https://github.com/nestjs/nest)
 <img alt="nestjs logo" src="./logos/nestjs.svg" width="30%">
@@ -157,6 +167,8 @@ if __name__ == '__main__':
 
 ## Java
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://github.com/akullpp/awesome-java)
+
+----------------------------------------
 
 ### Spring Boot
 <img alt="spring-boot logo" src="./logos/spring-boot.png" width="30%">
