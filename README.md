@@ -1,6 +1,6 @@
-# Awesome Backend [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](./LICENSE)
+# My Backend Roadmap [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](./LICENSE)
 
-A curated list of awesome **Backend** frameworks and resources
+My own roadmap with dreams and goals about **Backend** development
 
 All kinds of contributions(from single typos to large improvements) is welcomed! Just send a [new **pull request**](https://github.com/junhoyeo/awesome-backend/pull/new/master).
 
